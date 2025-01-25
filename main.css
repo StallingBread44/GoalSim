@@ -1,0 +1,17 @@
+*{
+    overflow: hidden
+}
+body, html {
+margin: 0;
+padding: 0;
+height: 100%;
+overflow: hidden; /* Prevents scrolling */
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+canvas {
+display: block; /* Removes any space below the canvas */
+width: 100%; /* Make canvas take full width */
+height: 100%; /* Make canvas take full height */
+}
